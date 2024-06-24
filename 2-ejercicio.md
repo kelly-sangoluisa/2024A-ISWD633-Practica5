@@ -14,3 +14,4 @@ Configurar SonarQube utilizando Docker Compose, para esto necesitas dos servicio
 ![image](https://github.com/kelly-sangoluisa/2024A-ISWD633-Practica5/assets/94008979/847873a0-b31e-47c5-915f-3fcb9a0eb091)
 
 # ACCEDER A LOCALHOST:puertoDefinido para ingresar a SonarQube
+![image](https://github.com/kelly-sangoluisa/2024A-ISWD633-Practica5/assets/94008979/0aad0c30-9933-45b4-bc5d-bfa0c1efc653)
