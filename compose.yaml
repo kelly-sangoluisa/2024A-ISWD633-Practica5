@@ -5,10 +5,10 @@ services:
     image: mysql:8.4
     container_name: mysql-container
     environment:
-      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress_user
-      MYSQL_PASSWORD: wordpress_password
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: wppassword
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
@@ -24,11 +24,11 @@ services:
     image: wordpress:6
     container_name: wordpress-container
     ports:
-      - "8080:80"  # host:contenedor
+      - "8080:80"
     environment:
-      WORDPRESS_DB_HOST: mysql-service:3306
-      WORDPRESS_DB_USER: wordpress_user
-      WORDPRESS_DB_PASSWORD: wordpress_password
+      WORDPRESS_DB_HOST: mysql-service
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: wppassword
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - wordpress-vol:/var/www/html
