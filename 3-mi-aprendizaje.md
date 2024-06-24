@@ -1,3 +1,2 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+Antes de realizar esta practica, tenia los conocimientos de antiguas practicas en las cuales ya aprendí comandos básicos en Docker sobre contenedores, imágenes, volúmenes y redes, pero ahora gracias a esta practica pude aumentar mi conocimiento en este tema donde pude aprender a escribir y configurar archivos *compose.yaml* en los cuales pude definir múltiples servicios, especificar imágenes, establecer variables de entorno, mapear puertos y definir volúmenes persistentes, todo en la misma configuración. 
+Un problema que se me presento fue la demora en la descarga de imágenes ya que parecía que se quedaba en bucle la descarga pero al parecer este proceso se tarda en ejecutar. 
